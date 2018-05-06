@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 
 
 // require("./routes/apiRoutes")(app);
-// require("./routing/htmlRoutes")(app);
+require("./routing/htmlRoutes")(app);
 
 
 // Routes
