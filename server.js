@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Use the express.static middleware to serve static content for the app from the "public" directory in the application directory.
-app.use(express.static("public"));
+app.use(express.static("app/public"));
 
 // require("./routes/apiRoutes")(app);
 // require("./routing/htmlRoutes")(app);
